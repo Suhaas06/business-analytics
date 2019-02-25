@@ -1,0 +1,53 @@
+#Command 1
+SELECT * FROM `bigquery-public-data.austin_bikeshare.bikeshare_stations` LIMIT 1000
+Output 
+https://docs.google.com/spreadsheets/d/1Z0ZWMCoCCxg4OsVEr7sWh4jTPr7NlToJziKQ8CIV9tQ/edit#gid=373632533
+#Command 2
+SELECT station_id AS IDENITY
+FROM `bigquery-public-data.austin_bikeshare.bikeshare_stations`
+Output
+https://docs.google.com/spreadsheets/d/1fygOrDrRrtzQpmbjpQdn0GkwjxvMUxfWuJYliU_y14w/edit#gid=1775699239
+#Command 3
+SELECT AVG(station_id)
+FROM `bigquery-public-data.austin_bikeshare.bikeshare_stations`
+Output
+https://docs.google.com/spreadsheets/d/1w4xDhc5E00QvLHiaKppJnihroGWv-NkL4VHkPHgvFlE/edit#gid=679412920
+#Command 4
+SELECT longitude
+FROM  `bigquery-public-data.austin_bikeshare.bikeshare_stations`
+WHERE longitude BETWEEN -97.73854 AND -97.74488
+Output
+This query returned no results.
+#Command 5
+SELECT MAX(longitude)
+FROM`bigquery-public-data.austin_bikeshare.bikeshare_stations`
+Output
+https://docs.google.com/spreadsheets/d/1yeXPIhbgWaE1NYlpOSyudvipl19pXdhSicgQyMQDd50/edit#gid=624161408
+#Commond 6
+SELECT MIN(longitude)
+FROM`bigquery-public-data.austin_bikeshare.bikeshare_stations`
+Output
+https://docs.google.com/spreadsheets/d/1HAmxHpw5vzt7myMYC5-Heie_jMfUDem0x8IqcbbFG5k/edit#gid=1258345222
+#Command 7
+SELECT MIN(station_id)
+FROM`bigquery-public-data.austin_bikeshare.bikeshare_stations`
+Output
+https://docs.google.com/spreadsheets/d/1zPO-pgZIv8oQynRppy5ANrTFn4hBC3kJcBzgkA8DcV0/edit?usp=drive_open&ouid=106762804190631537784
+#Command 8
+SELECT station_id
+FROM `bigquery-public-data.austin_bikeshare.bikeshare_stations`
+ORDER BY station_id ASC
+Output
+https://docs.google.com/spreadsheets/d/1LCNRuCeyJnby82AiQIYHqzGVpxj8vNlMD2wWv6qVrcM/edit?usp=drive_open&ouid=106762804190631537784
+#Command 9
+SELECT station_id
+FROM `bigquery-public-data.austin_bikeshare.bikeshare_stations`
+LIMIT 50
+Output
+https://docs.google.com/spreadsheets/d/1IS1ZRyZLdlyBd9FgKPTc0k2-2PkzG0sv3izay408gTU/edit?usp=drive_open&ouid=106762804190631537784
+#Command 10
+SELECT longitude
+FROM `bigquery-public-data.austin_bikeshare.bikeshare_stations`
+Output
+https://docs.google.com/spreadsheets/d/1ffHEpNKfZT9D-knbQ_YvH4aMKssIz8GnrDwEh0L-8kA/edit?usp=drive_open&ouid=106762804190631537784
+
